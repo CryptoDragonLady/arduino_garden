@@ -45,7 +45,7 @@ void loop() {
 
 /////////////MOISTURE SENSOR STUFf/////
 void check_soil_moisture(){
-  if(check_soil_moisture == (oneSecond * 60 * 60){
+  if(soilCheckTimer == (oneSecond * 60 * 60){
     
     for(int x  = 1; x <= 15; x++){
       moisturePotOne += analogRead(potOneSoilSensor);
